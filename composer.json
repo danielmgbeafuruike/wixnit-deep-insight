@@ -1,0 +1,25 @@
+{
+    "name": "wixnit/deep-insight",
+    "description": "A Library that enables service monitoring and sends notifications to the mobile app",
+    "type": "projec",
+    "autoload": {
+        "psr-4": {
+            "Wixnit\\DeepInsight\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "danielmgbeafuruike",
+            "email": "110927006+danielmgbeafuruike@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "phpmailer/phpmailer": "^7.0",
+        "mobiledetect/mobiledetectlib": "^4.8",
+        "google/auth": "^1.49",
+        "matomo/device-detector": "^6.4",
+        "wixnit/core": "^2.2",
+        "wixnit/location": "^2.0"
+    }
+}
